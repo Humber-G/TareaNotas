@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'recursoTarea.apps.RecursotareaConfig' # enlazar aplicacion recien creada
+    'recursoTarea.apps.RecursotareaConfig'  # enlazar aplicacion recien creada
 ]
 
 MIDDLEWARE = [
@@ -127,9 +127,9 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-STATICFILES_FIRS = (
+STATICFILES_DIRS = (
     join(BASE_DIR, 'static'),
-) 
+)
 STATIC_ROOT = join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
